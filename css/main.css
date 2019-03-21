@@ -70,9 +70,10 @@
 
 header {
     background: #FFFFFF;
-    background-image: url('../offering_bali.jpg');
+    background-image: url('../img/offering_bali.jpg');
     background-size: cover;
-    padding-bottom: 35em;        
+    padding-bottom: 35em;
+    opacity: 1.0;        
 }
 
 
@@ -119,11 +120,19 @@ body {
        
 /*Dark Skies*/
 
-    background: #4B79A1; 
+/*    background: #4B79A1; 
     background: -webkit-linear-gradient(to left, #4B79A1 , #283E51); 
-    background: linear-gradient(to left, #4B79A1 , #283E51); 
+    background: linear-gradient(to left, #4B79A1 , #283E51); */
+    background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
         
         
+}
+
+.top-container {
+background: rgb(21,48,97);
+background: radial-gradient(circle, rgba(21,48,97,0.9559174011401436) 36%, rgba(0,0,0,0.36207986612613796) 48%);
+
 }
 
 .button, input, select, textarea {
@@ -217,6 +226,21 @@ a:hover {
     display: none;
 }
 
+
+/*Images styles*/
+
+.myPhoto {
+    border-radius: 50%; 
+    height: 300px; 
+    width: 300px;
+}
+
+.where_dat {
+    border-radius: 50%; 
+    height: 150px; 
+    width: 150px;
+    margin: 3em;
+}
 
 
 /*Footer Styles*/
