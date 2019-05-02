@@ -118,20 +118,29 @@ header {
 
 body {
        
-/*Dark Skies*/
+
 
 /*    background: #4B79A1; 
     background: -webkit-linear-gradient(to left, #4B79A1 , #283E51); 
     background: linear-gradient(to left, #4B79A1 , #283E51); */
     background: rgb(2,0,36);
-background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+/*background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*/
+
+/*background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);*/
         
         
 }
 
 .top-container {
-background: rgb(21,48,97);
-background: radial-gradient(circle, rgba(21,48,97,0.9559174011401436) 36%, rgba(0,0,0,0.36207986612613796) 48%);
+    padding: 3em;
+    /*background: rgb(2,0,36);*/
+/*background: rgb(21,48,97);*/
+/*background: radial-gradient(circle, rgba(2,0,36,0.9559174011401436) 36%, rgba(0,0,0,0.36207986612613796) 48%);*/
+/*background: radial-gradient(circle, rgba(21,48,97,0.9559174011401436) 36%, rgba(0,0,0,0.36207986612613796) 48%);*/
+
+
+background: rgb(0,12,222);
+background: radial-gradient(circle, rgba(0,12,222,0.36207986612613796) 25%, rgba(2,0,36,1) 48%);
 
 }
 
@@ -230,12 +239,14 @@ a:hover {
 /*Images styles*/
 
 .myPhoto {
+    border: 1px solid #ffffff;
     border-radius: 50%; 
     height: 300px; 
     width: 300px;
 }
 
 .where_dat {
+    border: 1px solid #ffffff;
     border-radius: 50%; 
     height: 150px; 
     width: 150px;
@@ -247,7 +258,7 @@ a:hover {
 
 footer {
     
-    background: #404040; 
+    background: #403F50; 
     padding: 3em 0em 0em 0em;
         
 }
@@ -318,27 +329,11 @@ footer {
     color: #780206;
 }
 
-.fa-github {   
+.fa-linkedin {
     color: white;
 }
 
-.fa-linkedin-square {
-    color: white;
-}
-
-.fa-twitter {
-    color: white;
-}
-
-.fa-twitter:hover {
-    color: #d3d3d3;
-}
-
-.fa-linkedin-square:hover {
-    color: #d3d3d3;
-}
-
-.fa-github:hover {
+.fa-linkedin:hover {
     color: #d3d3d3;
 }
 
