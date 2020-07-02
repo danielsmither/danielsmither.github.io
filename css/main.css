@@ -197,6 +197,12 @@ p {
 
 }
 
+ul > p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: black;
+}
+
 a:hover {
     text-decoration: none;
 }
